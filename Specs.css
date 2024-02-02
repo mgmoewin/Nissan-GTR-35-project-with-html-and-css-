@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.backvideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media(min-aspect-ratio: 16/9){
+    .backvideo{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-aspect-ratio: 16/9){
+    .backvideo{
+        width: auto;
+        height: 100%;
+    }
+}
+.con{
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    padding: 5px;
+    background-color: transparent;
+}
+
+.logo{
+    width: 90px;
+}
+.con h1{
+    color: white;
+    text-transform: uppercase;
+    padding: 25px;
+}
+.text ul li{
+    color: white;
+    display: inline-block;
+    margin-right: 80px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    padding: 5px;
+    display: inline-block;
+    
+}
+.text ul li a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid silver;
+    border-radius: 30px;
+    position: relative;
+    font-size: 15px;
+    padding: 10px;
+}
+.text ul li a:hover{
+    color: grey;
+}
+.text-size{
+    margin: 20px;
+    padding-bottom: 200px;
+    padding: 40px;
+    color: white;
+    background-color: transparent;
+    border: 1.2px solid rgb(185, 179, 179);
+    margin-right: 722px;
+    border-radius: 15%;
+   
+
+    
+}
+.text-size1{
+    font-size: 200%;
+    font-family: 'Lucida Sans';
+    font-weight:bold;
+}
+.text-size2{
+    font-family: 'Lucida Sans';
+    line-height: 25px;
+    font-weight: bold;
+   text-align: justify;
+
+}

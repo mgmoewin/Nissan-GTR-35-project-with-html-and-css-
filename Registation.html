@@ -1,0 +1,83 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="Registration.css">
+</head>
+<body>
+    <div class="con">
+        <h1 class="form-title">Registration</h1>
+        <form name="f1">
+        <div class="main-user-info">
+            <div class="user-input-box">
+                <label for="fullname">First Name</label>
+                <input type="text"
+                id="Username" name="FirstName" placeholder="Enter First Name"/>
+            </div>
+            <div class="user-input-box">
+                <label for="fullname">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last Name</label>
+                <input type="text"
+                id="Username" name="LastName" placeholder="Enter Last Name"/>
+            </div>
+            <div class="user-input-box">
+                <label for="email">Email</label>
+                <input type="text"
+                id="email" name="email" placeholder="Enter Email"/>
+            </div>
+            <div class="user-input-box">
+                <label for="Phone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone Number</label>
+                <input type="text"
+                id="Phone Number" name="Phone Number" placeholder="Phone Number"/>
+            </div>
+            <div class="user-input-box">
+                <label for="password">Password</label>
+                <input type="password"
+                id="password1" name="password" placeholder="Enter Password"/>
+            </div>
+            <div class="user-input-box">
+                <label for="password">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Confirm Password</label>
+                <input type="password"
+                id="compassword1" name="conpassword" placeholder="Confirm Password"/>
+            </div>
+        </div>
+        <div class="Gender_detail">
+           <span class="Gender_Title">Gender</span>
+
+            <div class="Gender_Category">
+
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="Female">
+            <label for="Female">Female</label>
+
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+
+           </div>
+        </div>
+        <div class="form-submit">
+            <button type="button" onclick="fun()">Register</button>
+        </div>     
+    </div>
+</form>
+    <script>
+        function fun()
+        {
+            var pass=document.getElementById("password1").value;
+            var conpass=document.getElementById("compassword1").value;
+            if(pass=="NULL" && conpass=="NULL"){
+            window.location="Registation.html";
+            }
+            else if(pass==conpass){
+                window.location="Overview.html";
+            }else{
+                window.location="Registation.html";
+            }    
+        }
+    </script>
+</body>
+</html>

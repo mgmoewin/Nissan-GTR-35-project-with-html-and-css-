@@ -1,0 +1,68 @@
+<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nissan GTR Login</title>
+<link rel="stylesheet" href="Login.css">
+</head>
+<body>
+<div class="error" id="errid">
+    <div class="errcontent">
+        <span class="close" onclick="close2()">&times;</span>
+        User name and password are invalid!
+    </div>
+</div>
+<div class="con">
+
+<h1>Login</h1>
+
+<form name="f1">
+
+<div class="text">
+
+<div class="user">
+
+<label for="User Name">User Name</label><br>
+<input type="text" name="username" placeholder="Enter User Name">
+</div>
+
+<div class="password">
+
+<label for="Password">Password</label><br>
+<input type="password" name="password" placeholder="Enter Password">
+</div>
+
+<div class="btn">
+
+<button type="button" onclick="fun()">Login</button>
+<a href="Registation.html"><i>Register</i></a>
+</div>
+
+</div>
+
+</form>
+</div>
+
+<script>
+function close2(){
+    var test=document.getElementById("errid");
+    test.style.display="none";
+}
+function fun()
+{
+var user=document.f1.username.value;
+var pass=document.f1.password.value;
+var error=document.getElementById("errid");
+if(user=="Admin" && pass=="12345678")
+window.location="Overview.html";
+
+else
+error.style.display="flex";
+}
+
+</script>
+
+</body>
+</html>

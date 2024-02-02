@@ -1,0 +1,76 @@
+<html>
+<html lang="en">
+<head>
+    
+<title>Gallary</title>
+<link rel="stylesheet" href="G.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+
+<div class="container">
+
+<div class="swiper">
+
+<div class="swiper-wrapper">
+
+<div class="swiper-slide"> <div class="close">
+
+<button onclick="myFun1()">X&nbsp;&nbsp;Close</button>
+                  
+</div><img src="2.jpg" ></div>
+
+	<div class="swiper-slide"> <div class="close"><button onclick="myFun1()">X&nbsp;&nbsp;Close</button></div><img src="14.jpg" ></div>
+	<div class="swiper-slide"> <div class="close"><button onclick="myFun1()">X&nbsp;&nbsp;Close</button></div><img src="12.jpg" ></div>
+	<div class="swiper-slide"> <div class="close"><button onclick="myFun1()">X&nbsp;&nbsp;Close</button></div><img src="light.jpg" ></div>
+	<div class="swiper-slide"> <div class="close"><button onclick="myFun1()">X&nbsp;&nbsp;Close</button></div><img src="15.webp" ></div>
+	<div class="swiper-slide"> <div class="close"><button onclick="myFun1()">X&nbsp;&nbsp;Close</button></div><img src="16.webp" ></div>
+	<div class="swiper-slide"> <div class="close"><button onclick="myFun1()">X&nbsp;&nbsp;Close</button></div><img src="wheel.jpg" ></div>
+	<div class="swiper-slide"> <div class="close"><button onclick="myFun1()">X&nbsp;&nbsp;Close</button></div><img src="alsor.webp" ></div>
+	<div class="swiper-slide"> <div class="close"><button onclick="myFun1()">X&nbsp;&nbsp;Close</button></div><img src="6.jpg" ></div>
+	<div class="swiper-slide"> <div class="close"><button onclick="myFun1()">X&nbsp;&nbsp;Close</button></div><img src="7.jpg" ></div>
+	<div class="swiper-slide"> <div class="close"><button onclick="myFun1()">X&nbsp;&nbsp;Close</button></div><img src="8.jpg" ></div>
+</div>
+
+<div class="swiper-pagination"></div>
+
+<div class="swiper-button-prev"></div>
+
+<div class="swiper-button-next"></div>
+
+</div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+
+const swiper = new Swiper('.swiper', {
+loop: true,
+
+pagination: 
+{
+el: '.swiper-pagination',
+clickable: true,
+},
+
+navigation:
+{
+nextEl: '.swiper-button-next',
+prevEl: '.swiper-button-prev',
+},
+});
+
+</script>
+
+<script>
+
+function myFun1(){
+window.location="Interior.html";
+}
+
+</script>
+
+</body>
+</html>

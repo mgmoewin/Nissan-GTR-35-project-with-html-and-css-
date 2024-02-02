@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.con{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.con1{
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    padding: 5px;
+}
+.logo{
+    width: 90px;
+}
+.con h1{
+    color: white;
+    text-transform: uppercase;
+    padding: 25px;
+}
+.text ul li{
+    color: white;
+    display: inline-block;
+    margin-right: 80px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    padding: 5px;
+    
+}
+.text ul li a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid silver;
+    border-radius: 30px;
+    position: relative;
+    font-size: 15px;
+    padding: 10px;
+}
+.text ul li a:hover{
+    color: grey;
+}
+.Button{
+    position: absolute;
+    bottom:70px;
+    right: 20px;
+    width: 10%;
+    height: 6%;
+    background-color:black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.Text2{
+    color: white;
+    padding-left: 30px;
+    padding-top: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    font-family: 'Lucida Sans';
+}
+.Text2 h3{
+    font-size: 30px;
+    line-height: 40px;
+}
+.Text2 p{
+    line-height: 30px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+a .Button:hover{
+    background-color: rgb(71, 67, 67);
+    color: red;
+}
+.Text3{
+    position: absolute;
+    bottom: 50px;
+    font-family: 'Lucida Sans';
+    color: white;
+    padding-left: 50px;
+}

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+body{
+    background: black url(bnr_GTR.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.con{
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    padding: 5px;
+    background-color: transparent;
+    
+}
+.con1{
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    padding: 5px;
+}
+.logo{
+    width: 90px;
+}
+.con h1{
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.text ul li{
+    color: white;
+    display: inline-block;
+    margin-right: 80px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    padding: 5px;
+    
+}
+.text ul li a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid silver;
+    border-radius: 30px;
+    position: relative;
+    font-size: 15px;
+    padding: 10px;
+}
+.text ul li a:hover{
+    color: grey;
+}
+
+.content{
+    margin-top: 30px;
+    padding-left: 20px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: 'Lucida Sans';
+    
+    }
+    h5{
+        line-height: 20px;
+    }
+.text2{
+    color:white;
+    font-size: 20px;
+    padding: 20px;
+}
+.container{
+    padding-top: 200px;
+    font-family: 'Lucida Sans';
+    line-height: 180%;    
+}
+.container .con1 .text2:hover{
+    color: grey;
+    font-size: 21px;
+}

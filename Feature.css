@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+body{
+    background: black url(gtrwhite.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.con{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+ 
+}
+.con1{
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    padding: 5px;
+}
+.logo{
+    width: 90px;
+}
+.con h1{
+    color: white;
+    text-transform: uppercase;
+    padding: 25px;
+}
+.text ul li{
+    color: white;
+    display: inline-block;
+    margin-right: 80px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    padding: 5px;
+    
+}
+.text ul li a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid silver;
+    border-radius: 30px;
+    position: relative;
+    font-size: 15px;
+    padding: 10px;
+}
+.text ul li a:hover{
+    color: grey;
+}
+
+.content{
+    margin-top: 30px;
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-left: 50px;
+    margin-top: 2px;
+    line-height: 50px;
+    font-size: 20px;
+    }
+.text2{
+    color:white;
+    font-size: 20px;
+    padding: 20px;
+}
+.container{
+    padding-top:260px;
+    font-family: 'Lucida Sans';
+    line-height: 180%;
+}
+.p{
+    margin: 0;
+    text-indent: 1in;
+    color: white ;
+    padding: 5px;
+   
+}
+marquee{
+    width: 100%;
+    margin-top: 10px;
+    position: absolute;
+}
+.Car img{
+    width: 135px;
+    height: 70px;
+    bottom: 50px;
+}
+.container .con1 .text2:hover{
+    color: silver;
+}
